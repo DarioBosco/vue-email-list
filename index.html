@@ -11,9 +11,14 @@
 
 	<body>
 		<div id="app">
-			<ul>
+			<ol>
+				<div>Lista Esercizio base</div>
 				<li v-for="email in emails">{{email}}</li>
-			</ul>
+			</ol>
+			<ol>
+				<div>Lista Esercizio Bonus</div>
+				<li v-for="email in bonusEmails">{{email}}</li>
+			</ol>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 		<script src="./src/js/main.js"></script>
